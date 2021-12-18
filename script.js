@@ -20,3 +20,10 @@ const box6 = document.createElement('div');
 const box7 = document.createElement('div');
 
 
+const button = document.querySelector('button');
+
+const output = document.querySelector('.output')
+
+button.addEventListener('click', () => {
+    output.innerText.
+}

@@ -1,3 +1,22 @@
 body{
-    background:gray ;
+    background-color
+}
+.calc-container{
+    border-radius: 20px;
+    background-color: greenyellow;
+    color: honeydew;
+    width: 700px;
+    height: 500px;
+    transform: skew()
+}
+
+.output{
+    border-radius: 10px;
+    border: khaki double 3px;
+    color: honeydew;
+    display: flex;
+    justify-content: flex end;
+    padding: 20px;
+    margin: 20px
+
 }
