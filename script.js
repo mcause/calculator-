@@ -21,9 +21,15 @@ const box7 = document.createElement('div');
 
 
 const button = document.querySelector('button');
+// Grab a reference to a bunch of elements using document.querySelectorAll
+const buttons = document.querySelectorAll('button')
 
 const output = document.querySelector('.output')
+//Create an event once i click the button 
 
-button.addEventListener('click', () => {
-    output.innerText.
+
+for(let i = 0; i < buttons.length; i ++){
+buttons[i].addEventListener('click', () => {
+    output.innerText += buttons[i].innerText;
+    })
 }

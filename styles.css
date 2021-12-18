@@ -1,5 +1,5 @@
 body{
-    background-color
+    background-color:gray
 }
 .calc-container{
     border-radius: 20px;
@@ -19,4 +19,18 @@ body{
     padding: 20px;
     margin: 20px
 
+}
+
+button:hover{
+    opacity: 1;
+    box-shadow: 0 0 12px black
+}
+
+button.clear{
+    background: red ;
+}
+
+.button-grid{
+    display:grid;
+    grid-template-columns: auto auto auto ;
 }
