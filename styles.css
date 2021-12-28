@@ -1,9 +1,14 @@
 body{
     background-color:gray
 }
+
+h1{
+    display: flex;
+    justify-content: space-evenly;
+}
 .calc-container{
     border-radius: 20px;
-    background-color: greenyellow;
+    background-color: rgb(49, 49, 45);
     color: honeydew;
     width: 700px;
     height: 500px;
@@ -12,13 +17,14 @@ body{
 
 .output{
     border-radius: 10px;
-    border: khaki double 3px;
-    color: honeydew;
+    border: rgb(37, 37, 35) double 3px;
+    background-color: rgb(9, 248, 9);
     display: flex;
-    justify-content: flex end;
+    justify-content: center;
     padding: 20px;
-    margin: 20px
-
+    margin: 20px;
+    height: 100px;
+    width:600px;
 }
 
 button:hover{
@@ -26,11 +32,25 @@ button:hover{
     box-shadow: 0 0 12px black
 }
 
+button{
+    background-color: blue;
+    padding: 8px; 
+    margin: 5px;
+    color: rgb(17, 11, 11);
+    cursor: pointer;
+    height: 70px;
+    width: 70px;
+    display: flex-wrap;
+    flex-direction:auto auto auto ;
+    font-size: 30px;
+    
+}    
+
 button.clear{
-    background: red ;
+    background:red;
 }
 
-.button-grid{
+/* .button-grid{
     display:grid;
     grid-template-columns: auto auto auto ;
-}
+} */
