@@ -1,5 +1,8 @@
 body{
-    background-color:gray
+    background-color:gray;
+    display:grid;
+    justify-content: center;
+    align-items: center;
 }
 
 h1{
@@ -9,22 +12,30 @@ h1{
 .calc-container{
     border-radius: 20px;
     background-color: rgb(49, 49, 45);
-    color: honeydew;
-    width: 700px;
-    height: 500px;
-    transform: skew()
+    color: rgb(6, 7, 6);
+    width: 500px;
+    height: 450px;
+    transform: skew();
+    padding:0%;
+    margin:100px;
+    box-shadow: 0 0 15px black
 }
 
+
 .output{
-    border-radius: 10px;
+    border-radius: 20px;
     border: rgb(37, 37, 35) double 3px;
     background-color: rgb(9, 248, 9);
     display: flex;
-    justify-content: center;
+    justify-content: right;
+    align-items: center;
     padding: 20px;
     margin: 20px;
     height: 100px;
-    width:600px;
+    width:415px;
+    font-size: 60px;
+    /* overflow: hidden; */
+
 }
 
 button:hover{
@@ -34,20 +45,24 @@ button:hover{
 
 button{
     background-color: blue;
+    border-radius:15px;
     padding: 8px; 
     margin: 5px;
     color: rgb(17, 11, 11);
     cursor: pointer;
     height: 70px;
-    width: 70px;
-    display: flex-wrap;
-    flex-direction:auto auto auto ;
+    margin: 10px;
     font-size: 30px;
-    
 }    
 
-button.clear{
+.clear{
     background:red;
+}
+
+.calculator-name{
+    padding: 8px;
+    margin: 5px;
+    
 }
 
 /* .button-grid{
