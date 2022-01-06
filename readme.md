@@ -1,28 +1,28 @@
-Calculator Project
+## Calculator Project
 
 my rendition of a calculator 
 
-[ ] Create an html, javascript, styles 
+[X] Create an html, javascript, styles 
 
-[ ] Make sure they are all connected 
+[X] Make sure they are all connected 
 
-[ ] Create boxes that will accept my inputs 
+[X] Create boxes that will accept my inputs 
 
-[ ] Place math functions and numbers within the created boxes 
+[X] Place math functions and numbers within the created boxes 
 
-[ ] Write code that will alow the functions to work with the numbers being clicked on 
+[X] Writean event that will allow numbers being clicked on to appear 
 
 ## -HTML-
 
-[ ] Create a calculator in html 
+[X] Create buttons in  html 
 
 ## -CSS-
 
-[ ] Stylize that calculator with css 
+[X] Style calculator with css 
 
 ## -Javascript- 
 
-[ ] create logic that allows the user to click on numbers and use the given functions 
+[X] create function for the operators 
 
-[ ] return a solution to the math equation 
+[X] return a solution to the math equation 
 

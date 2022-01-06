@@ -34,7 +34,7 @@ function clearInput(){
 clearButton. addEventListener('click', clearInput)
 //created a similar function for the equal sign 
 function equalInput(){
-  //set the output text to equal the solving function and return the answer in on the calculator screen
+  //set the output text to equal the solving function and show show the text 
   output.innerText = solving(output.innerText)
 }
 //Added an event once equal sign is clicked it will display the answer of the math problem 
@@ -44,11 +44,11 @@ equalSign.addEventListener('click', equalInput)
 function solving(numInput){
 //created a for loop to constantly look for one of the following inputs
 for(let i = 0; i < numInput.length; i++){
-  //created an if statement for the first condition 
+  //conditional statement
   if(numInput[i] === '+'){
-    //create a variable that turns the numbers into a string and splits it with the + sign 
+    //variable that turns the numbers into a string and joins them with the + sign 
     let add = numInput.split('+')
-    // return the first integer(add[0]) plus the second integer
+    // return the first string (add[0]) plus the second string (add[1])
     return(parseInt(add[0])+parseInt(add[1]))
     }else if(numInput[i] === '-'){
       let subtract = numInput.split('-')
@@ -56,7 +56,7 @@ for(let i = 0; i < numInput.length; i++){
     }else if(numInput[i] === '/'){
       let divide = numInput.split('/')
       return(parseInt(divide[0])/parseInt(divide[1]))
-    }else if (numInput[i] === '*'){
+    }else if(numInput[i] === '*'){
       let multiply = numInput.split('*')
       return(parseInt(multiply[0])*parseInt(multiply[1]))
     }
